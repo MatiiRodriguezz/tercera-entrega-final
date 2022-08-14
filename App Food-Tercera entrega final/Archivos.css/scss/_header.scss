@@ -1,0 +1,23 @@
+/* header */
+header {
+@include flex(column,space-around,center);
+padding: $spacing-small 0;
+border-bottom: 2px solid $secondary;
+header__img{
+max-width: 200px;
+}
+}
+
+.menu{
+display: flex;
+gap: $spacing-small;
+&__link{
+    font-size: $text-medium;
+    padding: $spacing-xsmall 1.2rem;
+    border: 2px solid #fff;
+    transition: all 1s;
+    &:hover {
+        border-color: $text-color;
+    }
+}
+}

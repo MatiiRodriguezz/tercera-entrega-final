@@ -1,0 +1,50 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 60px 0;
+}
+ul li {
+  display: inline-block a;
+  
+}/*# sourceMappingURL=styles.css.map */
+
+.flex-container{
+  display: flex;
+  background-color: bisque;
+  flex-direction: row;
+
+}
+  .flex-container div{
+      background-color: brown;
+      margin: 5px;
+      color: white;
+      flex-basis: 100%;
+  }
+
+  
+
+
+.flex-container div{
+   flex-basis:  100%;
+}
+
+
+    .flex-container{
+  display: flex;
+  background-color: bisque;
+  flex-direction: row;
+
+}
+  .flex-container div{
+      background-color: brown;
+      margin: 5px;
+      color: white;
+      flex-basis: 100%;
+  }
+
+  
+
+
+.flex-container div{
+   flex-basis:  100%;
+}
